@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google Homepage Recreation - The Odin Project</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/60d5aa6a19.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -20,16 +21,22 @@
             <ul>
                 <li><a href="">Gmail</a></li>
                 <li><a href="">Images</a></li>
-                <li><img src="images/googlemic.png" alt="menu"></li>
-                <li><img src="images/photo.png" alt="account"></li>
+                <!-- <li><img src="images/googlemic.png" alt="menu"></li> -->
+                <li><img src="images/photo.png" alt="account" id ="accountid"></li>
             </ul>
         </div>
     </nav>
         <main id="content-main">
             <div class="main-content">
                 <img src="images/googlelogo.png" class="logo" alt="Google Logo">
-                <input type="text" id="search" name="search" background>
-                <img src="images/googlemic.png" alt="menu">
+                <div class="search-wrapper">
+                <input type="text" id="search" name="search" background="">
+                <!-- <img src="images/googlemic.png" alt="menu"> -->
+                <img class="search-pic"src="images/googlemic.png"/>
+                <img class="search-pic" id="mag" src="images/mag2.png"/>
+                
+                
+                </div>
             </div>
                 <div class="buttons">
                 <a href="#what" class="btn">Google Search</a>
