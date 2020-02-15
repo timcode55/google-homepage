@@ -24,12 +24,14 @@ a:active {
 	list-style: none;
 	color: rgb(0, 0, 0);
 	opacity: .75;
+	align-items: center;
 }
 
 .navbar ul {
 	display: flex;
 	list-style: none;
 	text-decoration: none;
+	align-items: center;
 }
 
 #right-nav {
@@ -38,6 +40,7 @@ a:active {
 
 #right-nav ul li {
 	margin-right: 30px;
+	padding-left: -5px;
 }
 
 #left-nav {
@@ -61,7 +64,7 @@ a:active {
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	padding: 100px;
+	padding: 20px;
 }
 
 .btn {
@@ -93,6 +96,13 @@ a:active {
 	width: 584px;
 	height: 46px;
 	border-radius: 24px;
+	outline: none;
+	border-top-style: outset;
+	border-left-style: outset;
+}
+
+#search:hover {
+	box-shadow: 1px 1px 1px lightgray;
 }
 
 #footer {
